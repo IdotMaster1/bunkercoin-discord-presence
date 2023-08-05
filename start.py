@@ -6,7 +6,7 @@ user = "username"
 password = "password"
 
 rpc_connection = AuthServiceProxy("http://%s:%s@127.0.0.1:14201" % (user, password))
-client_id = '1136437276612767795'
+client_id = ''
 RPC = Presence(client_id)
 RPC.connect()
 
